@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
 # Load the pre-trained model for image classification
-model_path = 'C:/Users/Angela Rengifo/Desktop/RoadMap/Projects/New_course_OD/trading_model.h5'
+model_path = 'C:/Users/Angela Rengifo/Desktop/RoadMap/Projects/New_course_OD/traning_model.h5'
 loaded_model = tf.keras.models.load_model(model_path)
 
 class ImageClassifierGUI:
