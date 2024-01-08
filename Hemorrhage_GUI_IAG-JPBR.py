@@ -1,8 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
-import torch
-from torchvision import models, transforms
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
